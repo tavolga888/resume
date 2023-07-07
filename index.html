@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Сайт-резюме</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="info">
+            <img src="foto.jpg" alt="Татьяна Крючкова" class="foto">
+
+            <div class="info-text">
+                <h1>Татьяна Крючкова</h1>
+                <p>Люблю жить,<strong> творить</strong>. Ищу <strong>новое</strong>. Коллекционирую Ангелов</p>
+                <p>Сейчас занимаюсь программированием. <strong><em>Мне очень нравится !</em></strong> </p>
+                <hr>
+
+                <h4><strong>Список социальных сетей</strong></h4>
+                <a href="http://web.telegram.org/k" target="_blank">Telegram </a>
+                |
+                <a href="http://Instagram.com/tatianakrushkova_/" target="_blank">Instagram</a>
+            </div>
+        </div>
+
+
+        <div class="card bg-yellow">
+            <h2>Мои хобби</h2>
+            <ul class="list">
+                <li>Текстильное творчество</li>
+                <li>Путешествия</li>
+                <li>Люблю учиться новому!</li>
+            </ul>
+        </div>
+        <br>
+
+        <div class="card bg-red">
+            <h2>Опыт работы</h2>
+            <table class="table">
+                <!-- <thead>
+                        <tr>
+                            <th>Название</th>
+                            <th>Должность</th>
+                            <th>Период</th>
+                        </tr>
+                    </thead> -->
+                <tbody>
+                    <tr>
+                        <td>Арт-флаг</td>
+                        <td>Менеджер</td>
+                        <td>2007-2017</td>
+                    </tr>
+                </tbody>
+                <tr>
+                    <td>Вудтех</td>
+                    <td>Бухгалтер</td>
+                    <td>2018-2019</td>
+                </tr>
+                </tbody>
+                <tbody>
+                    <tr>
+                        <td>Нет</td>
+                        <td>Нет</td>
+                        <td>2019-2023</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <br>
+
+        <form action="/" class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Имя</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Сообщение</label>
+
+                <textarea id="message" cols="28" rows="5" placeholder="Введите сообщение"></textarea>
+            </div>
+
+            <button class="btn" type="submit">Отправить</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
